@@ -16,6 +16,21 @@
     <lat>51.1789</lat>
     <lon>1.1713</lon>
   </event>
+   
+   <event>
+     <title>Pompeii becomes a roman coloney</title>
+     <date type="start">
+       <year>80</year>
+       <era>BC</era>
+     </date>
+     <date type="end">
+       <year>34</year>
+       <era>BC</era>
+     </date>
+     <description>quintus setorius re-enters pompei with small army.</description>
+     <lat>40.741467</lat>
+     <lon>14.484950</lon>
+   </event>
 
   <event>
     <title>Battle of Actium</title>

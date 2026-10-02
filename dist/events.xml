@@ -1,108 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<!--This is an example xml filled with random events, feel free to copy and paste your own events over these ones from the template!-->
 <?xml-model href="events.rnc" type="application/relax-ng-compact-syntax"?>
 <events>
  <track type="1" name="early">
   <event>
-    <title>Julius Caesar invades Britain</title>
+    <title>Rise and Fall of Rome</title>
     <date type="start">
-      <year>0080</year>
+      <year>0753</year>
       <era>BC</era>
     </date>
     <date type="end">
-      <year>0054</year>
+      <year>0027</year>
       <era>BC</era>
     </date>
-    <description>Julius Caesar led the first Roman expedition to Britain, landing on the Kent coast.</description>
-    <lat>51.1789</lat>
-    <lon>1.1713</lon>
+    <description>Rome is an important empire in history, The founding and Establishment of the Roman Republic</description>
+    <lat>41.5336</lat>
+    <lon>12.2858</lon>
   </event>
 
   <event>
-    <title>Battle of Actium</title>
+    <title>The Fall of Rome</title>
     <date type="start">
-      <year>0031</year>
-      <month>09</month>
-      <era>BC</era>
+      <year>0410</year>
+      <era>AD</era>
     </date>
     <date type="end">
-    <year>0010</year>
-    <month>07</month>
+    <year>0476</year>
     <era>BC</era>
     </date>
-    <description>Octavian defeated the combined forces of Mark Antony and Cleopatra, becoming Rome's first emperor.</description>
-    <lat>38.9419</lat>
-    <lon>20.7400</lon>
+    <description> The Visgoths sacked Rome in 410 followed by king Odoacer killing Romulus Agustulus effectivly ending the roman rule</description>
+    <lat>41.5336</lat>
+    <lon>12.2858</lon>
   </event>
   </track>
  
  <track type="2" name="mid">
   <event>
-    <title>Storming of the Bastille</title>
+    <title>World War 1</title>
     <date type="start">
-      <year>1789</year>
-      <month>07</month>
-      <day>14</day>
+      <year>1914</year>
+      <month>06</month>
+      <day>28</day>
       <era>AD</era>
     </date>
-<!--    <date type="end">
-    </date>-->
-    <description>Parisian crowds stormed the Bastille fortress, marking the start of the French Revolution.</description>
-    <lat>48.8533</lat>
-    <lon>2.3692</lon>
-    <media>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Prise_de_la_Bastille.jpg/640px-Prise_de_la_Bastille.jpg</media>
+    <date type="end">
+      <year>1918</year>
+      <month>11</month>
+      <day>11</day>
+      <era>AD</era>
+    </date>
+    <description>due to deep longterm tension across europe, the assassination of Archduke Franz Ferdinad sparks the begining of WWI</description>
+    <lat>54.5260</lat>
+    <lon>15.2551</lon>
+    <media>    https://en.wikipedia.org/wiki/World_War_I</media>
   </event>
  
   <event>
-    <title>Declaration of the Rights of Man</title>
+    <title>World War 2</title>
     <date type="start">
-      <year>1789</year>
-      <month>08</month>
-      <day>26</day>
+      <year>1939</year>
+      <month>09</month>
+      <day>1</day>
       <era>AD</era>
     </date>
-  <!--  <date type="end">
-    </date>-->
-    <description>The National Constituent Assembly adopted this foundational document of human rights.</description>
-    <lat>48.8566</lat>
-    <lon>2.3522</lon>
+    <date type="end">
+      <year>1945</year>
+      <month>09</month>
+      <day>2</day>
+      <era>AD</era>
+    </date>
+    <description>Unresolved tension after WWI and the rise of Facisum lead to the deadliest condlict in history.</description>
+    <lat>51.1657</lat>
+    <lon>10.4515</lon>
+    <media>https://en.wikipedia.org/wiki/World_War_II</media>
   </event>
  
   <event>
-    <title>Execution of Louis XVI</title>
+    <title>The Cold War</title>
     <date type="start">
-      <year>1793</year>
-      <month>01</month>
-      <day>21</day>
+      <year>1947</year>
       <era>AD</era>
     </date>
-<!--    <date type="end">
-    </date>-->
-    <description>King Louis XVI was guillotined at the Place de la Révolution in Paris.</description>
-    <lat>48.8656</lat>
-    <lon>2.3212</lon>
+    <date type="end">
+      <year>1991</year>
+      <era>AD</era>
+    </date>
+    <description>Caused by prolinged geopolitical and ideological struggle between the United States and the Soviet Union</description>
+    <lat>37.09024</lat>
+    <lon>95.712891</lon>
+    <media>https://en.wikipedia.org/wiki/Cold_War</media>
   </event>
  </track>
 
 <track type="3" name="late">
   <event>
-    <title>Napoleon crowned Emperor</title>
+    <title>9/11</title>
     <date type="start">
-      <year>1804</year>
-      <month>12</month>
-      <day>02</day>
+      <year>2001</year>
+      <month>09</month>
+      <day>11</day>
       <era>AD</era>
     </date>
-    <date type="end">
-      <year>1814</year>
-      <era>AD</era>
-    </date>
-    <description>Napoleon Bonaparte crowned himself Emperor of the French at Notre-Dame de Paris.
-    His first reign as Emperor ends when he abdicates in 1814</description>
-    <lat>48.8530</lat>
-    <lon>2.3499</lon>
-    <media>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/David_-_Napoleon_at_the_Saint-Bernard_Pass%2C_20_May_1800.jpg/480px-David_-_Napoleon_at_the_Saint-Bernard_Pass%2C_20_May_1800.jpg</media>
+   <!-- <date type="end">
+    </date>-->
+    <description> coordinated series of suicide attacks perpetrated by the Islamic terrorist organization al-Qaeda against the United States in 2001</description>
+    <lat>40.4246</lat>
+    <lon>74.0022</lon>
+    <media>https://en.wikipedia.org/wiki/September_11_attacks</media>
   </event>
  </track>
 </events>
